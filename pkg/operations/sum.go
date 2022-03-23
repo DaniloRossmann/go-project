@@ -1,5 +1,5 @@
 package operations
 
-func sum(a int, b int) int {
+func Sum(a int, b int) int {
 	return a + b
 }
