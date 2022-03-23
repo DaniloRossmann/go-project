@@ -9,6 +9,7 @@ import (
 func main() {
 	valorDiff := operation.Diff(6, 2)
 	valorSum := operation.Sum(15, 10)
-	fmt.Printf("%v %v \n", valorDiff, valorSum)
+	vari := operation.Variable
+	fmt.Printf("%v %v \n %v", valorDiff, valorSum, vari)
 
 }
